@@ -1,0 +1,1 @@
+module.exports = somma = (a, b) => a + b;
