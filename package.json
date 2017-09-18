@@ -1,5 +1,5 @@
 {
-  "name": "app-test",
+  "name": "app-test-lordkenzo",
   "version": "0.0.0-development",
   "description": "Un semplice test per usare Travis, codecoverage, istanbul, semantic-release-cli, commitizen",
   "main": "index.js",
