@@ -18,7 +18,6 @@ deploy:
     tags: true
     repo: law78/app-test
     all_branches: true
-
 after_success:
   - npm run report-coverage
   - npm run semantic-release

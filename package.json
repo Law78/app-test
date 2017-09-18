@@ -6,7 +6,8 @@
   "scripts": {
     "precommit": "npm test",
     "prepush": "npm test",
-    "test": "./node_modules/.bin/mocha test/*.test.js -w",
+    "test": "./node_modules/.bin/mocha test/*.test.js",
+    "test:watch": "./node_modules/.bin/mocha test/*.test.js -w",
     "test:single": "istanbul cover -x *.test.js _mocha -- -R spec spec test/*.test.js",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
@@ -33,6 +34,9 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks":{
+      "pre-commit": "npm run test:single"
     }
   }
 }
