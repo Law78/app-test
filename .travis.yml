@@ -15,6 +15,7 @@ deploy:
   provider: npm
   email: l.franceschini@gmail.com
   on:
+    branch: master
     tags: true
     repo: law78/app-test
     all_branches: true
