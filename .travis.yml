@@ -17,7 +17,7 @@ deploy:
   on:
     branch: master
     tags: true
-    repo: law78/app-test
+    repo: law78/app-test-lordkenzo
     all_branches: true
   api_key:
     secure: FVwcX6xlA5yy/h5sR3i3iwYmkIJ8K055OYIIN3VipVp2ZoUV1Y1NlpEC3e7pksc2ZHL3YVf3tO5ioq8Hl0Gi2Msg55S9jGHv4g2kUrCX0g3GuF4LAxpATRSmFp4aF6ir1yK1tVF18SU+BAiVDhruuu768RDuxNOrwvymrmCx2jzW3iTMDvIHlZ09xDhJd7ML6uyCIAMNo7PU7ssDQqNuQ05xPPIN+QNMAspWod31TWopCgZE7uvRQyjSSnyTr0fPJNDsHKXzR0GA4NTyFVY13+rcCvhuTmM1hguBPAuinFYV81EPYTQTAYwQnFaS7EL0QeTu+E/WikslR7RJ32bSsa2WNdgrkQ+jgPHZwoiGfvAoNqVV5AB/ZiH2EVT+Vk/G5IQRHVL3hjMs/NOBB0/dvTz3EDlxcRerAliPiOXoaXVhoaix5rAZjveW9wZZE2FyE66fAjiSF/nr4BkK05tu/C0xhU5uK1jHpzZ9KfpZbqDtjw8LPB1ijGqjkVLBJmXa41fSQ7ON5V1JIRNQVMOgjiEHZNSNocFVZ9u1j0AJ4d0UCWbZ4f6kOkgesZQCtbG0Cuo71olJa2FWx4mgx+bXdJBkFdzedVGCLkBnX5y41S3jQCQX/X2977CrfzKosQake0EUVmETWFD+5qMF+hiU9ncC8Wwcl9B9TPFUoF0+n9w=
