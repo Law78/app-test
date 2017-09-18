@@ -11,6 +11,14 @@ before_script:
   - npm prune
 script:
   - npm run test:single
+deploy:
+  provider: npm
+  email: l.franceschini@gmail.com
+  on:
+    tags: true
+    repo: law78/app-test
+    all_branches: true
+
 after_success:
   - npm run report-coverage
   - npm run semantic-release
